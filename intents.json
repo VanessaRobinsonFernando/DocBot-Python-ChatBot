@@ -1,0 +1,350 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "How are you doing?",
+        "ola"
+      ],
+      "responses": [
+        "Hey, Ask me anything related to cancer :-)",
+        "Hello, I am googleDOC, Any questions?",
+        "Hi there, What do you want to know about cancer?",
+        "Hi there, how can I help you with cancer?"
+      ]
+    },
+    {
+      "tag": "cancer_types",
+      "patterns": [
+        "What are the type of cancers ?",
+        "Different types of cancer",
+        "what are the types cancers that occur commonly ?",
+        "what are the most common cancers ?",
+        "is breast cancer common?"
+      ],
+      "responses": [
+        "Some types of cancer are as follows: breast ,lung ,prostate, skin (non-melanoma), stomach.",
+        "Breast, lung, colon and rectum, prostate skin (non-melanoma) and stomach are some common cancers",
+        "Breast, lung, colon and rectum, prostate skin (non-melanoma) and stomach are most common types of cancers."
+      ]
+    },
+    {
+      "tag": "cancer_risk",
+      "patterns": [
+        "who can get cancer?",
+        "Can anyone get cancer ?",
+        "who gets cancer ?",
+        "Whom does cancer affect",
+        "Who is prone to cancer",
+        "what is the risk i get cancer?",
+        "is my health at risk of cancer?",
+        "risk"
+      ],
+      "responses": [
+        "Anyone can get cancer, although the risk goes up with age. Your individual risk depends on factors such as whether you smoke, lifestyle choices such as what you eat and how much you exercise, your family history of cancer, and factors in your workplace and environment.",
+        "Yes, it is possible for anyone to get cancer, although the risk goes up with age. Individual risk depends on factors such as whether you smoke, lifestyle choices such as what you eat and how much you exercise, your family history of cancer, and factors in your workplace and environment.",
+        "Everyone has a risk of getting cancer, and although the risk goes up with age, your individual risk depends on factors such as smoking, your lifestyle choices, whether you exercise and eat healthfully, and your workplace environment."
+      ]
+    },
+
+    {
+      "tag": "treatment_costs",
+      "patterns": [
+        "If I’m concerned about the costs and insurance coverage for my diagnosis and treatment, who can help me?",
+        "Is it possible to know the cost oriented plans for the treatment",
+        "What is the average cost of cancer treatment?",
+        "Cost plan and treatment",
+        "how much does it cost to get treated for cancer?",
+        "how much could my cancer treatment cost?",
+        "how much is curing cancer for?",
+        "are cancer treatments affordable?",
+        "cost"
+      ],
+      "responses": [
+        "All the possible details regarding the cost of cancer treatment are as follows: amount can vary sometimes depending on the patient's cancer, treatments, insurance, and resources but total cost of cancer treatment on average is $150,000",
+        "Sure, the total cost of cancer treatment on average is $150,000. However, the amount can vary sometimes depending on the patient's cancer, treatments, insurance, and resources "
+      ]
+    },
+    {
+      "tag": "side_effects",
+      "patterns": [
+         "Is there anything I can do to help manage side effects?",
+         "How to manage or take control of the side effects",
+        "What are the side effects of cancer",
+        "what are some side effects of cancer medications?",
+        "are there any side effects of cancer treatment?",
+        "side effects"
+      ],
+      "responses": [
+        "Eat well; drink plenty of water or non-caffeinated liquids that contain electrolytes; exercise when you are able and get enough rest, both at night and during the day. Listen to your body to help you know when to rest. Ask to see a pulmonologist or respiratory therapist if you feel short of breath.",
+        "Listen to your body to help you know when to rest. Ask to see a pulmonologist or respiratory therapist if you feel short of breath."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "What exercise to do?",
+        "What to do after cancer",
+        "What kind of exercise should one do?",
+        "what exercises can i do after my cancer treatment?",
+        "can I work out after chemotherapy?",
+        "can i do exercises directly after cancer treatment?",
+        "sport",
+        "exercises"
+      ],
+      "responses": [
+         "If you exercised before treatment, you might need to exercise less or at a lower intensity during treatment. The goal is to stay as active as you can.",
+        "Aerobic exercise. Daily aerobic exercise is a great way for people with lung cancer to improve their fitness. It strengthens the heart and improves oxygen capacity. Examples of aerobic exercise include walking, dancing, or any activity you enjoy that increases your heart rate."
+      ]
+    },
+    {
+      "tag": "treatment",
+      "patterns": [
+        "What are the treatment choices?",
+        "What will the treatment be like?",
+        "Details regarding the treatment",
+        "What treatment options are there?",
+        "how options of treatments do I have?",
+        "I have cancer, what are the best treatments for me?"
+      ],
+      "responses": [
+        "1. Surgery(removes cancer that is contained in one area. Surgery removes some, but not all, of a cancer tumor.) \n 2.Radiation-Therapy(external radiation therapy that uses special equipment to position the patient and precisely give a single large dose of radiation to a tumor) \n 3.Chemotherapy(Treatment that uses drugs to stop the growth of cancer cells)\n 4. Immunotherapy(immunotherapy is to boost the function of your immune system so that it can destroy cancer cells) are the 4 types of the treatment choices you have ",
+        "The best recommended treatment is \n 1.Chemotherapy(Treatment that uses drugs to stop the growth of cancer cells) and \n 2.Immunotherapy(immunotherapy is to boost the function of your immune system so that it can destroy cancer cells)",
+        "Surgery usually removes cancer that is contained in one area. \n 1.Chemotherapy - Treatment that uses drugs to stop the growth of cancer cells \n 2.Immunotherapy - Boosts the function of your immune system so that it can destroy cancer cells"
+      ]
+    },
+     {
+        "tag": "define_cancer",
+        "patterns": [
+          "What is cancer",
+          "Define cancer",
+          "Definition of cancer",
+          "what does cancer do?"],
+        "responses":
+        ["Cancer is a disease in which some of the body's cells grow uncontrollably and spread to other parts of the body. Cancer can start almost anywhere in the human body."
+        ]
+      },
+    {
+        "tag": "spread",
+        "patterns": ["How does cancer start",
+        "cancer begins how",
+        "start of cancer",
+        "cancer start",
+        "does cancer spread fast?",
+        "where does cancer spread to?",
+        "does cancer spread through all my body?"],
+        "responses": ["Your body is made up of many different types of cells. Under normal conditions, cells grow, divide, become old, and die. Then, in most cases, they’re replaced by new cells. But sometimes cells mutate grow out of control, and form a mass, or tumor, instead of dying. Tumors can be benign (noncancerous) or malignant (cancerous). Cancerous tumors can attack and kill your body’s tissues. They can also spread to other parts of the body, causing new tumors to form there. This process is called metastasis and it represents cancer that has advanced to a late stage."]
+      },
+        {
+        "tag": "cancer_stages",
+        "patterns": ["What are the stages of cancer",
+        "define stages of cancer",
+        "what are cancer stages?",
+        "how do I know which cancer stage I am in?",
+        "how many stages of cancer are there?",
+        "Stages of cancer",
+        "What are the levels of cancer?",
+        "cancer stages"],
+        "responses": ["Cancer typically has four stages (1-4). Some cancers even have a stage 0 (zero : This stage means the cancer is still found in the place it started and has not spread to nearby tissues. Stage 0 cancers are often curable.)."]
+      },
+    {
+        "tag": "genetic",
+        "patterns": ["Is cancer genetic",
+        "cancer is genetic?",
+        "cancer spread genetically",
+        "Cancer is affected due to genes",
+        "Is cancer hereditary",
+        "cancer is hereditary?",
+        "cancer spread  ",
+        "Cancer is affected due to heredity",
+        "genes",
+        "can genes transfer cancer?"],
+        "responses":
+        ["Yes, it is genetic in some cases. \nSometimes faulty genes increase the risk of cancer that can be passed on from parent to child. These are inherited cancer gene faults.  ",
+         "Cancer is, in fact, a genetic disease. \nThis is because cancer is caused by mutations or changes to genes that control the way our cells function, causing them to behave irregularly. These mutations can be inherited, as they are in about 5-10 percent of all cancer cases",
+         "Yes it can spread genetically. \nThis is because cancer is caused by mutations or changes of genes that control the way our cells function, causing them to behave irregularly. These mutations can be inherited, as they are in about 5-10 percent of all cancer cases, but it’s much more likely that these gene changes occur during a person’s lifetime due to other factors besides genetics."]
+      },
+    {
+        "tag": "contagious",
+        "patterns": ["Is cancer contagious?",
+        "cancer is infectious?",
+        "Is cancer infectious?",
+        "cancer is transferable?",
+        "can cancer be infectious",
+        "Will cancer be infectious?",
+        "Cancer infectious?",
+        "can I infect my family with my cancer?",
+        "can family infect each other with cancer?",
+        "can I infect my friend with cancer?",
+        "can others infect me with cancer?",
+        "contagious",
+        "infectious"],
+        "responses":
+        ["Cancer is NOT contagious, Cancer isn’t like the flu or a cold: Close contact or things like touching, sharing meals, or breathing the same air cannot spread cancer. \nCancer cells from someone with cancer are not able to live in the body of another healthy person."
+        ]
+      },
+        {
+        "tag": "symptoms",
+        "patterns": ["Does cancer have symptoms?",
+        "what are the symptoms of cancer?",
+        "cancer has symptoms",
+        "what are signs of cancer",
+        "traits that a cancer diagnosed person or patient shows",
+        "Symptoms of cancer patient",
+        "cancer patient symptoms",
+        "do I have cancer?",
+        "how do I know if someone has cancer?",
+        "what are common symptoms of cancer?",
+        "symptoms"],
+        "responses":
+        ["Yes,cancer has many symptoms. Some general signs and symptoms of cancer can include: \nUnexplained weight loss, \nFever, \nFatigue, \nPain, \nSkin changes, \nBowel habit or bladder function changes, \nSores that don’t heal, \nA thickening or lump in a part of the body, such as a breast \nIf you are facing any of these symptoms visit the nearest hospital",
+         "Some symptoms of cancer are as follows: \nUnexplained weight loss, \nFever, \nFatigue, \nPain, \nSkin changes, \nBowel habit or bladder function changes, \nSores that don’t heal \nIf you are facing any of these symptoms visit the nearest hospital"
+        ]
+          },
+        {
+        "tag": "checkup",
+        "patterns": ["When to get tested for cancer",
+          "do we need regular body checkup to get tested for cancer",
+          "do we need regular body check up to get tested for cancer",
+          "important to get tested for cancer regularly",
+          "do I need to get checked for cancer?",
+          "when to i need to get checked for cancer?",
+          "how do I do a checkup for cancer?",
+          "how do I do a check up for cancer?",
+          "when is a good age to get test for cancer",
+          "at what age should i get a checkup for cancer",
+          "at what age should i get a check up for cancer"],
+        "responses":
+        ["All people at average risk should start testing at age 45, so talk to your health care provider if you haven't started yet. There are several testing options. Your doctor may use one or more approaches to diagnose cancer: Physical exam. Your doctor may feel areas of your body for lumps that may indicate cancer. During a physical exam, your doctor may look for abnormalities, such as changes in skin color or enlargement of an organ, that may indicate the presence of cancer. Benefits of cancer screening : Early detection can lead to better outcomes for many patients. Research shows that there are lifestyle changes we can make to reduce our risk of getting certain cancers. These include quitting smoking, avoiding too much sun and eating a healthy, balanced diet",
+         "All people at average risk should start testing at age 45, so talk to your health care provider if you haven't started yet. There are several testing options. Your doctor may use one or more approaches to diagnose cancer: Physical exam. Your doctor may feel areas of your body for lumps that may indicate cancer. During a physical exam, your doctor may look for abnormalities, such as changes in skin color or enlargement of an organ, that may indicate the presence of cancer. Benefits of cancer screening : Early detection can lead to better outcomes for many patients. Research shows that there are lifestyle changes we can make to reduce our risk of getting certain cancers. These include quitting smoking, avoiding too much sun and eating a healthy, balanced diet",
+         "All people at average risk should start testing at age 45, so talk to your health care provider if you haven't started yet. There are several testing options. Your doctor may use one or more approaches to diagnose cancer: Physical exam. Your doctor may feel areas of your body for lumps that may indicate cancer. During a physical exam, your doctor may look for abnormalities, such as changes in skin color or enlargement of an organ, that may indicate the presence of cancer. Benefits of cancer screening : Early detection can lead to better outcomes for many patients. Research shows that there are lifestyle changes we can make to reduce our risk of getting certain cancers. These include quitting smoking, avoiding too much sun and eating a healthy, balanced diet"]
+      },
+        {
+        "tag": "cured",
+        "patterns": ["Can cancer be treated fully",
+        "can cancer be treated completely",
+        "is cancer treatable??",
+        "can cancer be healed completely",
+        "Cancer can be cured?",
+        "How to cure cancer?",
+        "Is cancer curable?"],
+        "responses":
+        ["Yes cancer can be cured. When cancer treatment appears to be working, your doctor might say the cancer is in remission. A partial remission occurs when the cancer shrinks but does not disappear. A complete remission means there is no longer any sign of cancer.",
+         "Yes can cancer can be treated completely. When cancer treatment appears to be working, your doctor might say the cancer is in remission. A partial remission occurs when the cancer shrinks but does not disappear. A complete remission means there is no longer any sign of cancer."]
+      },
+    {
+        "tag": "vaccine",
+        "patterns": ["Is there a vaccine for cancer?",
+        "Vaccination for cancer",
+        "can I get vaccinated for cancer?",
+        "can I get vaccinated for cancer?",
+        "does cancer have a vaccine?",
+        "vaccine",
+        "is there a cancer vaccine?"],
+        "responses": ["There is no vaccine for cancer, But there are vaccines for some viruses that are known to cause cancer, such as the human papillomavirus (HPV) and hepatitis B. Vaccinations against HPV can help protect against the types of HPV that cause cervical, anal, throat, and penile cancers, along with other cancers. Same is with infection with the hepatitis B virus linked to liver cancer therefore Getting vaccinated against hepatitis B can reduce your risk for getting liver cancer."]
+      },
+        {
+      "tag": "survival_rate",
+      "patterns":
+        ["What are the chances that cancer can be cured with the available treatments",
+         "success rate of cancer treatments" ,
+         "avg statistics of cancer survivors and chance of survival",
+         "chance of survival",
+         "Survival rate",
+         "What are the chances that cancer can be cured with the available cures",
+         "success rate of cancer cures",
+         "can I survive cancer?",
+         "survive",
+         "how successful are cancer treatments?",
+         "are cancer treatments effective?",
+         "how effective are cancer treatments?",
+         "are cancer cures successful?"  ],
+      "responses":
+        ["The success rate of new cancer treatments that reach the RCT stage has raised to about 25% to 50% therefore the pattern of success has become more stable over time. Adding on that more than 80% of people diagnosed with cancer types which are easier to diagnose and/or treat survive their cancer for ten years or more (2010-11). Less than 20% of people diagnosed with cancer types which are difficult to diagnose and/or treat survive their cancer for ten years or more (2010-11)"
+         ]
+      },
+   {
+      "tag": "treatment_ineffective",
+      "patterns":
+      ["What would my options be if the treatment does NOT work or if the cancer comes back after treatment?",
+       "What will my options be if the cancer comes back?",
+       "What if the treatment does not work",
+       "my cancer treatment was ineffective, what do I do?",
+       "my cancer treatment did not work"],
+      "responses":
+      ["If the cancer only recurs in the original site, surgery or radiation might be good choices. But if the disease has spread to distant areas of the body, then it may need more aggressive treatments, like chemotherapy, biological therapy, or radiation. clinical trials can also be checked out. Even then if cancer does not respond (in rare cases) to chemotherapy, radiation therapy, or other treatments, palliative care is still an option. A person can receive palliative care with other treatments or on its own.",
+       "If the cancer only recurs in the original site, surgery or radiation might be good choices. But if the disease has spread to distant areas of the body, then it may need more aggressive treatments, like chemotherapy, biological therapy, or radiation. clinical trials can also be checked out. Even then if cancer does not respond (in rare cases) to chemotherapy, radiation therapy, or other treatments, palliative care is still an option. A person can receive palliative care with other treatments or on its own."]
+     },
+   {
+      "tag": "follow-up visits",
+      "patterns":
+      ["What type of follow up will a patient need after the treatment?",
+       "How often will one need to have follow up exams and imaging tests?",
+       "what are the follow ups that a patient might have to attend and how often?",
+       "do I need to revisit the doctor after my cancer treatment?"],
+      "responses":
+      [ "In people with no signs of cancer remaining, follow-up visits are recommended (which may include CT scans and blood tests) about every 3 months for the first couple of years after treatment, about every 6 months for the next several years, then at least yearly after 5 years.",
+        "In people with no signs of cancer remaining, follow-up visits are recommended (CT scans and blood tests) for almost 3 months for the first couple of years after treatment, about every 6 months for the next several years, then at least yearly after 5 years.",
+        "follow-up visits may include as follows: CT scans and blood tests for almost like 3 months for the first couple of years after treatment, about every 6 months for the next several years, then at least yearly after 5 years."]
+     },
+    {
+        "tag": "contact",
+        "patterns": ["contact for expert advice",
+        "expert advice",
+        "expert help",
+        "i need to contact experts",
+        "i want to contact a professional",
+        "how to I get in touch with an expert in cancer?",
+        "i need to see a specialist",
+        "how do I see a specialist in cancer?"],
+        "responses": ["When you have questions about cancer, the best thing you can do is ask your physician or a specialist. \nKnowing the facts is important.  \nCall 888-FOX-CHASE to make an appointment."]
+      },
+    {
+      "tag": "counselling",
+      "patterns":
+        ["suggest a mental health professional for handling feelings like overwhelmed, depressed, or distressed for patients",
+         "feeling depressed, or distressed, recommend a mental health professional to see",
+         "getting distressed, irritated and just depressed, suggest a professional",
+         "Is there anyone to consult  if one has been feeling overwhelmed, depressed, or distressed?",
+         "i need a therapist",
+         "I am depressed",
+         "mental health",
+         "i need counselling",
+         "i dont feel good, i think i need therapy"],
+      "responses":
+        ["A therapist that can help with maintaining your mental health can be found on some websites which would suggest are as follows: \nBetterHelp, \nReGain, \nFaithful Counseling, \nOnline-Therapy.com ",
+         "Some websites suggested are as follows: \nBetterHelp, \nReGain, \nFaithful Counseling, \nOnline-Therapy.com here you can do different trials with a professional "
+        ]
+          },
+     {
+      "tag": "diet",
+      "patterns":
+      [
+        "Does one need to change what they eat during treatment?",
+        "what should be eaten during the treatment?",
+        "what is a diet plan, patients should follow after and during treatment ",
+        "what kind of food is should not be consumed",
+        "what food should be restricted after and during treatment",
+        "What food to eat",
+        "What diet to follow?",
+        "what food can I eat during cancer treatment?",
+        "what foods am I allowed to eat while in chemotherapy?",
+        "can I consume any food I want during cancer treatment?",
+        "food",
+        "eat"
+      ],
+      "responses":
+        [
+          "Choose protein-rich foods. \nLike meats, \nLow-fat dairy products, \nNuts and nut butters, \nBeans Soy foods \ncan be consumed during the treatment. \nAvoid or limit your intake of red (beef, pork, or lamb) and processed meats also avoiding added sugar, sodium, and saturated fats.",
+          "Eat plenty of high-fiber foods, \nLike whole-grain breads and cereals. \nTry to buy a different fruit, vegetable, low-fat food, or whole-grain product, \nChoose protein-rich foods, \nLow-fat dairy foods, dry fruits, nuts \nNo oily food intakes. "
+          ]
+        }
+
+  ]
+}
